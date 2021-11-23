@@ -27,3 +27,14 @@ def paskontroll(psword: str)->bool:
 	else:
 		t=False
 	return t
+def koik_kasutajad(users,passwords):
+	i=0
+	for user in users:
+		print(user,end="-")
+		print(passwords[i])
+		i+=1
+
+
+
+
+
